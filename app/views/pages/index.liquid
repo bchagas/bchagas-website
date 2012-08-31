@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ site.name }}</title>
+  </head>
+  <body>
+    <header>
+      <h1>Bruno Chagas - Front-end Developer</h1>
+    </header>
+
+    <section class='content' role='main'>
+      {% block 'main' %}
+      {% for project in contents.projects %}
+        <article id='{{ project.name }}'>
+          <h1>{{ project.name }}</h1>
+          <img src='{{ project.thumb.url }}'>
+          <p>{{ project.description }}</p>
+          <a href='{{ project.url }}'> View this project </a>
+        </article>
+      {% endfor %}
+      {% endblock %}
+    </section>
+
+    <footer>
+      <nav>
+        <ul>
+          <li><a href='http://twitter.com/brunochagasweb'>@brunochagasweb</a></li>
+          <li><a href='http://github.com/bchagas'>Me on Github</a></li>
+          <li><a href='http://br.linkedin.com/in/brunochagas'>Linkeding</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

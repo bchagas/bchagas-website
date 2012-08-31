@@ -1,0 +1,19 @@
+name: Projects
+order_by: manually
+slug: projects
+label_field_name: name
+fields:
+- name:
+    required: true
+    label: Name
+    type: string
+- thumb:
+    required: true
+    label: Thumb image
+    type: file
+- description:
+    label: Description
+    type: text
+- url:
+    label: Url
+    type: string

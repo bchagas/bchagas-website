@@ -1,0 +1,14 @@
+development:
+  host: bchagas.dev
+  email: brunochagasweb@gmail.com
+  password: abc123
+
+staging:
+  host: staging.example.com
+  email: john@doe.net
+  password: easyone
+
+production:
+  host: bchagas-cms.herokuapp.com
+  email: brunochagasweb@gmail.com
+  password: abc123
