@@ -1,35 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>{{ site.name }}</title>
+    {% include 'head' %}
   </head>
   <body>
     <header>
-      <h1>Bruno Chagas - Front-end Developer</h1>
+      <section class='content'>
+        <a href='/'><abbr title='Bruno Chagas'>BC</abbr></a>
+        <nav>
+          {% nav 'parent', active_class: 'current', depth: 1, no_wrapper: false, exlude: false, icon: false %}
+        </nav>
+      </section>
     </header>
 
-    <section class='content' role='main'>
-      {% block 'main' %}
-      {% for project in contents.projects %}
-        <article id='{{ project.name }}'>
-          <h1>{{ project.name }}</h1>
-          <img src='{{ project.thumb.url }}'>
-          <p>{{ project.description }}</p>
-          <a href='{{ project.url }}'> View this project </a>
-        </article>
-      {% endfor %}
-      {% endblock %}
-    </section>
+    {% block 'main' %}
+    <section role='contentinfo'>
+      <h1>Hello. I'm <strong>Bruno Chagas, Front-end Developer</strong> based in Brazil.</h1>
+      <p>You can find me in:</p>
 
-    <footer>
       <nav>
-        <ul>
-          <li><a href='http://twitter.com/brunochagasweb'>@brunochagasweb</a></li>
-          <li><a href='http://github.com/bchagas'>Me on Github</a></li>
-          <li><a href='http://br.linkedin.com/in/brunochagas'>Linkeding</a></li>
+        <ul role='navigation'>
+          <li><a rel='nofollow' href='http://facebook.com/bchagas'>facebook</a></li>
+          <li><a rel='nofollow' href='http://instagram.com/brunochagas'>instagram</a></li>
+          <li><a rel='nofollow' href='http://br.linkedin.com/in/brunochagas'>linkedin</a></li>
+          <li><a rel='nofollow' href='http://twitter.com/brunochagasweb'>twitter</a></li>
+          <li><a rel='nofollow' href='http://github.com/bchagas'>github</a></li>
+          <li><a rel='nofollow' href='mailto:bchagas@me.com'>mail</a></li>
         </ul>
       </nav>
+    </section>
+    {% endblock %}
+
+    <footer>
+      <section class='content'>
+        <figure>
+          {{ 'me.png' | theme_image_tag: 'alt:Bruno Chagas' }}
+          <a href='mailto:bchagas@me.com' rel='nofollow'>bchagas@me.com</a>
+        </figure>
+      </section>
     </footer>
   </body>
 </html>

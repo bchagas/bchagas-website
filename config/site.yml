@@ -3,13 +3,31 @@ site:
 
   locales: [en]
 
-  seo_title: bchagas-website
+  seo_title: Bruno Chagas - Front-end Developer
   meta_keywords: "some meta keywords"
   meta_description: "some meta description"
 
   pages:
-    - "index": # page path (the template can edited here app/views/pages/index.liquid)
+    - "index":
         title: "Home page"
         published: true
+        listed: false
+
+    - "about":
+        title: "About"
+        publisher: true
+
+    - "work":
+        title: "Work"
+        published: true
+
+    - "articles":
+        title: "Articles"
+        published: true
+
+    - "contact":
+        title: "Contact"
+        published: true
+
     - "404":
         title: "Page not found"
