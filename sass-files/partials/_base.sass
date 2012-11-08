@@ -1,13 +1,23 @@
 @import partials/colors
 @import compass/css3
+@import grid/settings
+@import partials/typography
 
 html
   background: image-url('backgrounds/stripe.png') white left top no-repeat
 
   body
-    > header
+    > header, > footer
       background: $kournikova
-      +box-shadow(rgba(0, 0, 0, .3) 2px 0 8px)
 
     > footer
-      background: $kournikova
+      height: 252px
+
+    .content, section[role='contentinfo']
+      +container
+
+    section[role='contentinfo']
+      +layout-horizontal-margin(4)
+
+    > header
+      +box-shadow(rgba(0, 0, 0, .3) 2px 0 8px)
