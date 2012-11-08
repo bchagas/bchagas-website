@@ -1,0 +1,21 @@
+@import partials/typography/utilities
+
+body
+  font-family: 'Chatype Regular', Arial, sans-serif
+
+  @for $i from 1 through 6
+    h#{$i}
+      font-size: 50px - $i * 2
+
+  strong
+    font-family: 'Chatype Bold', Arial, sans-serif
+
+  &#home-page
+    section[role='contentinfo']
+      > nav
+        font:
+          family: 'LigatureSymbols'
+          size: 48px
+        +text-rendering(optimizeLegibility)
+        +font-smoothing(antialiased)
+        +font-feature-settings()
