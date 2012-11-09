@@ -1,3 +1,20 @@
 @import blueprint/reset
 @import partials/base
 @import partials/colors
+
+body
+  > header
+    h1
+      margin: 0 auto
+      width: 74px
+
+    nav
+      +navigation
+
+  &#home-page
+    section[role='contentinfo']
+      > h1
+        +layout-horizontal-margin(2, bottom)
+
+      > nav
+        +social-navigation
