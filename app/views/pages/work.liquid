@@ -1,0 +1,16 @@
+{% extends parent %}
+
+{% block 'main' %}
+  <section role='contentinfo'>
+    <ul>
+      {% for project in contents.projects %}
+        <li>
+          <figure>
+            {{ project.thumb.url | theme_image_tag }}
+            <figcaption>{{ project.description }}</figcaption>
+          </figure>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endblock %}
