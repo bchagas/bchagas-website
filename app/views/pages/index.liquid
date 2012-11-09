@@ -34,9 +34,12 @@
     <footer>
       <section class='content'>
         <figure>
-          {{ 'me.png' | theme_image_tag: 'alt:Bruno Chagas' }}
-          <a href='mailto:bchagas@me.com' rel='nofollow'>bchagas@me.com</a>
+          {% editable_file "avatar", hint: "Upload a avatar image (perfect size: 48x48)", priority: 1 %}
+            {{ 'me.png' | theme_image_tag: 'alt: Bruno Chagas Avatar' }}
+          {% endeditable_file %}
         </figure>
+
+        <a href='mailto:bchagas@me.com' rel='nofollow'>bchagas@me.com</a>
       </section>
     </footer>
   </body>
