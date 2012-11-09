@@ -1,0 +1,13 @@
+name: Social medias
+order_by: manually
+slug: networks
+label_field_name: name
+fields:
+- name:
+    required: true
+    label: Network name
+    type: string
+- _url:
+    required: true
+    label: Network URL
+    type: string
