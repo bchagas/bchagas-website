@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "LigatureSymbols";
+  src: url("LigatureSymbols.eot");
+  src: url("LigatureSymbols.eot?#iefix") format("embedded-opentype"), url("LigatureSymbols.woff") format("woff"), url("LigatureSymbols.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
