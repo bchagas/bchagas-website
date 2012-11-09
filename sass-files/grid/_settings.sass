@@ -5,5 +5,5 @@ $layout-horizontal-margin: 32px
 
 @import blueprint
 
-=layout-horizontal-margin($n: 0)
-  margin-top: $layout-horizontal-margin * $n
+=layout-horizontal-margin($n: 0, $direction: top)
+  margin-#{$direction}: $layout-horizontal-margin * $n
