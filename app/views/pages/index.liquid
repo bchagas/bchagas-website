@@ -6,8 +6,8 @@
   <body id='{{ page.title | downcase | dasherize }}'>
     <header>
       <section class='content'>
-        <a href='/'><abbr title='Bruno Chagas'>BC</abbr></a>
-        <nav>
+        <h1><a href='/'><abbr title='Bruno Chagas'>BC</abbr></a></h1>
+        <nav role='navigation'>
           {% nav 'parent', active_class: 'current', depth: 1, no_wrapper: false, exlude: false, icon: false %}
         </nav>
       </section>
