@@ -1,11 +1,11 @@
-/* line 4, /Users/brunochagas/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+/* line 4, /Users/brunochagasweb/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
 html {
   margin: 0;
   padding: 0;
   border: 0;
 }
 
-/* line 18, /Users/brunochagas/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+/* line 18, /Users/brunochagasweb/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
 .bp-reset-element, body, h1, h2, h3, h4, h5, h6, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, blockquote, q, th, td, caption, table,
 div, span, object, iframe, p,
 pre, a, abbr, acronym, address,
@@ -23,21 +23,21 @@ caption, tbody, tfoot, thead, tr {
   vertical-align: baseline;
 }
 
-/* line 20, /Users/brunochagas/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+/* line 20, /Users/brunochagasweb/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 21, /Users/brunochagas/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+/* line 21, /Users/brunochagasweb/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
 blockquote, q {
   quotes: "" "";
 }
-/* line 67, /Users/brunochagas/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+/* line 67, /Users/brunochagasweb/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
 blockquote:before, blockquote:after, q:before, q:after {
   content: "";
 }
 
-/* line 22, /Users/brunochagas/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+/* line 22, /Users/brunochagasweb/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
 th, td, caption {
   float: none !important;
   text-align: left;
@@ -45,64 +45,64 @@ th, td, caption {
   vertical-align: middle;
 }
 
-/* line 23, /Users/brunochagas/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+/* line 23, /Users/brunochagasweb/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
 table {
   border-collapse: separate;
   border-spacing: 0;
   vertical-align: middle;
 }
 
-/* line 24, /Users/brunochagas/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+/* line 24, /Users/brunochagasweb/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 3, /Users/brunochagas/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
+/* line 3, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body {
   font-family: "Chatype Regular", Arial, sans-serif;
 }
-/* line 7, /Users/brunochagas/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
+/* line 7, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body h1 {
   font-size: 48px;
 }
-/* line 7, /Users/brunochagas/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
+/* line 7, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body h2 {
   font-size: 46px;
 }
-/* line 7, /Users/brunochagas/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
+/* line 7, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body h3 {
   font-size: 44px;
 }
-/* line 7, /Users/brunochagas/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
+/* line 7, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body h4 {
   font-size: 42px;
 }
-/* line 7, /Users/brunochagas/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
+/* line 7, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body h5 {
   font-size: 40px;
 }
-/* line 7, /Users/brunochagas/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
+/* line 7, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body h6 {
   font-size: 38px;
 }
-/* line 10, /Users/brunochagas/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
+/* line 10, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body strong {
   font-family: "Chatype Bold", Arial, sans-serif;
 }
-/* line 13, /Users/brunochagas/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
+/* line 13, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body a {
   text-decoration: none;
   color: #191635;
 }
-/* line 17, /Users/brunochagas/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
+/* line 17, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body p {
   font-size: 18px;
 }
-/* line 21, /Users/brunochagas/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
+/* line 21, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body#home-page section[role='contentinfo'] {
   text-align: center;
 }
-/* line 24, /Users/brunochagas/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
+/* line 24, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body#home-page section[role='contentinfo'] > nav {
   font-family: "LigatureSymbols";
   font-size: 48px;
@@ -122,36 +122,36 @@ body#home-page section[role='contentinfo'] > nav {
   -o-font-feature-settings: "liga" 1, "dlig" 1;
   font-feature-settings: "liga" 1, "dlig" 1;
 }
-/* line 33, /Users/brunochagas/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
+/* line 33, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body > header h1 {
   font-family: "Chatype Bold";
   font-size: 60px;
   letter-spacing: -9px;
 }
-/* line 39, /Users/brunochagas/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
+/* line 39, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body > header nav {
   font-size: 18px;
 }
-/* line 42, /Users/brunochagas/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
+/* line 42, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body > header nav li {
   text-align: center;
 }
 
-/* line 7, ../../sass-files/partials/_base.sass */
+/* line 7, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_base.sass */
 html {
-  background: url('/images/backgrounds/stripe.png?1352163674') white left top no-repeat;
+  background: url('/images/backgrounds/stripe.png') white left top no-repeat;
 }
-/* line 11, ../../sass-files/partials/_base.sass */
+/* line 11, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_base.sass */
 html body > header, html body > footer {
   background: #ffe677;
 }
-/* line 14, ../../sass-files/partials/_base.sass */
+/* line 14, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_base.sass */
 html body > footer {
   height: 152px;
   text-align: center;
   width: 100%;
 }
-/* line 19, ../../sass-files/partials/_base.sass */
+/* line 19, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_base.sass */
 html body > footer img {
   clear: both;
   display: block;
@@ -159,70 +159,70 @@ html body > footer img {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 26, ../../sass-files/partials/_base.sass */
+/* line 26, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_base.sass */
 html body .content, html body section[role='contentinfo'] {
   width: 620px;
   margin: 0 auto;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 29, ../../sass-files/partials/_base.sass */
+/* line 29, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_base.sass */
 html body section[role='contentinfo'] {
   margin-top: 128px;
   height: auto;
 }
-/* line 33, ../../sass-files/partials/_base.sass */
+/* line 33, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_base.sass */
 html body > header {
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 2px 0 8px;
   -moz-box-shadow: rgba(0, 0, 0, 0.3) 2px 0 8px;
   box-shadow: rgba(0, 0, 0, 0.3) 2px 0 8px;
   height: 74px;
 }
-/* line 37, ../../sass-files/partials/_base.sass */
+/* line 37, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_base.sass */
 html body > header .content {
   height: 100%;
 }
 
-/* line 7, ../../sass-files/screen.sass */
+/* line 7, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/screen.sass */
 body > header h1 {
   margin: 0 auto;
   width: 74px;
 }
-/* line 11, ../../sass-files/screen.sass */
+/* line 11, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/screen.sass */
 body > header nav {
   overflow: hidden;
   margin-top: -43px;
 }
-/* line 5, /Users/brunochagas/Documents/workspace/projects/bchagas-website/sass-files/partials/_mixins.sass */
+/* line 5, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_mixins.sass */
 body > header nav li {
   display: inline-block;
   float: left;
   width: 64px;
 }
-/* line 10, /Users/brunochagas/Documents/workspace/projects/bchagas-website/sass-files/partials/_mixins.sass */
+/* line 10, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_mixins.sass */
 body > header nav li:first-child {
   margin-right: 90px;
 }
-/* line 13, /Users/brunochagas/Documents/workspace/projects/bchagas-website/sass-files/partials/_mixins.sass */
+/* line 13, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_mixins.sass */
 body > header nav li:nth-child(4n + 3) {
   margin-left: 194px;
 }
-/* line 16, /Users/brunochagas/Documents/workspace/projects/bchagas-website/sass-files/partials/_mixins.sass */
+/* line 16, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_mixins.sass */
 body > header nav li:nth-child(4n + 4) {
   float: right;
 }
-/* line 16, ../../sass-files/screen.sass */
+/* line 16, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/screen.sass */
 body#home-page section[role='contentinfo'] > h1 {
   margin-bottom: 64px;
 }
-/* line 19, ../../sass-files/screen.sass */
+/* line 19, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/screen.sass */
 body#home-page section[role='contentinfo'] > nav {
   height: 44px;
   margin: 0 auto;
   overflow: hidden;
   width: 400px;
 }
-/* line 25, /Users/brunochagas/Documents/workspace/projects/bchagas-website/sass-files/partials/_mixins.sass */
+/* line 25, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_mixins.sass */
 body#home-page section[role='contentinfo'] > nav li {
   display: inline-block;
   float: left;
@@ -230,7 +230,7 @@ body#home-page section[role='contentinfo'] > nav li {
   margin-left: 41px;
   width: 32px;
 }
-/* line 32, /Users/brunochagas/Documents/workspace/projects/bchagas-website/sass-files/partials/_mixins.sass */
+/* line 32, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_mixins.sass */
 body#home-page section[role='contentinfo'] > nav li:first-child {
   margin-left: 0;
 }
