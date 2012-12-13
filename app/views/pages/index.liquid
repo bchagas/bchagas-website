@@ -13,20 +13,20 @@
       </section>
     </header>
 
-    {% block 'main' %}
     <section role='contentinfo'>
-      <h1>Hello. I'm <strong>Bruno Chagas, Front-end Developer</strong> based in Brazil.</h1>
-      <p>You can find me in:</p>
+      {% block 'main' %}
+        <h1>Hello. I'm <strong>Bruno Chagas, Front-end Developer</strong> based in Brazil.</h1>
+        <p>You can find me in:</p>
 
-      <nav>
-        <ul>
-          {% for network in contents.networks %}
-            <li><a rel='nofollow' href='{{ network._url }}'>{{ network.name | downcase }}</a></li>
-          {% endfor %}
-        </ul>
-      </nav>
+        <nav>
+          <ul>
+            {% for network in contents.networks %}
+              <li><a rel='nofollow' href='{{ network._url }}' title='{{ network.name }}'>{{ network.name | downcase }}</a></li>
+            {% endfor %}
+          </ul>
+        </nav>
+      {% endblock %}
     </section>
-    {% endblock %}
 
     <footer>
       <section class='content'>

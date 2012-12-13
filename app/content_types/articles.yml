@@ -1,0 +1,15 @@
+name: Articles
+order_by: manually
+slug: articles
+label_field_name: title
+fields:
+- title:
+    required: true
+    label: Title
+    type: string
+- tag:
+    label: Tag
+    type: string
+- content:
+    label: Content
+    type: text

@@ -63,46 +63,52 @@ body {
 }
 /* line 7, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body h1 {
+  font-family: "Chatype Bold", Arial, sans-serif;
   font-size: 48px;
 }
 /* line 7, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body h2 {
+  font-family: "Chatype Bold", Arial, sans-serif;
   font-size: 46px;
 }
 /* line 7, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body h3 {
+  font-family: "Chatype Bold", Arial, sans-serif;
   font-size: 44px;
 }
 /* line 7, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body h4 {
+  font-family: "Chatype Bold", Arial, sans-serif;
   font-size: 42px;
 }
 /* line 7, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body h5 {
+  font-family: "Chatype Bold", Arial, sans-serif;
   font-size: 40px;
 }
 /* line 7, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body h6 {
+  font-family: "Chatype Bold", Arial, sans-serif;
   font-size: 38px;
 }
-/* line 10, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
+/* line 12, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body strong {
   font-family: "Chatype Bold", Arial, sans-serif;
 }
-/* line 13, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
+/* line 15, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body a {
   text-decoration: none;
   color: #191635;
 }
-/* line 17, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
+/* line 19, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body p {
   font-size: 18px;
 }
-/* line 21, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
+/* line 23, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body#home-page section[role='contentinfo'] {
   text-align: center;
 }
-/* line 24, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
+/* line 26, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body#home-page section[role='contentinfo'] > nav {
   font-family: "LigatureSymbols";
   font-size: 48px;
@@ -122,36 +128,36 @@ body#home-page section[role='contentinfo'] > nav {
   -o-font-feature-settings: "liga" 1, "dlig" 1;
   font-feature-settings: "liga" 1, "dlig" 1;
 }
-/* line 33, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
+/* line 35, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body > header h1 {
   font-family: "Chatype Bold";
   font-size: 60px;
   letter-spacing: -9px;
 }
-/* line 39, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
+/* line 41, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body > header nav {
   font-size: 18px;
 }
-/* line 42, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
+/* line 44, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_typography.sass */
 body > header nav li {
   text-align: center;
 }
 
-/* line 7, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_base.sass */
+/* line 7, ../../sass-files/partials/_base.sass */
 html {
   background: url('/images/backgrounds/stripe.png') white left top no-repeat;
 }
-/* line 11, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_base.sass */
+/* line 11, ../../sass-files/partials/_base.sass */
 html body > header, html body > footer {
   background: #ffe677;
 }
-/* line 14, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_base.sass */
+/* line 14, ../../sass-files/partials/_base.sass */
 html body > footer {
   height: 152px;
   text-align: center;
   width: 100%;
 }
-/* line 19, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_base.sass */
+/* line 19, ../../sass-files/partials/_base.sass */
 html body > footer img {
   clear: both;
   display: block;
@@ -159,26 +165,30 @@ html body > footer img {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 26, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_base.sass */
+/* line 26, ../../sass-files/partials/_base.sass */
 html body .content, html body section[role='contentinfo'] {
   width: 620px;
   margin: 0 auto;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 29, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_base.sass */
+/* line 29, ../../sass-files/partials/_base.sass */
 html body section[role='contentinfo'] {
   margin-top: 128px;
   height: auto;
 }
-/* line 33, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_base.sass */
+/* line 33, ../../sass-files/partials/_base.sass */
+html body section[role='contentinfo'] h1 {
+  text-align: center;
+}
+/* line 36, ../../sass-files/partials/_base.sass */
 html body > header {
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 2px 0 8px;
   -moz-box-shadow: rgba(0, 0, 0, 0.3) 2px 0 8px;
   box-shadow: rgba(0, 0, 0, 0.3) 2px 0 8px;
   height: 74px;
 }
-/* line 37, /Users/brunochagasweb/Documents/workspace/projects/bchagas-website/sass-files/partials/_base.sass */
+/* line 40, ../../sass-files/partials/_base.sass */
 html body > header .content {
   height: 100%;
 }
