@@ -1,6 +1,11 @@
 <meta charset="utf-8">
 <title>{{ site.name }}</title>
 
+{{ 'libraries/jquery.js' | javascript_tag }}
+{{ 'libraries/underscore.js' | javascript_tag }}
+{{ 'libraries/backbone.js' | javascript_tag }}
+{{ 'application.js' | javascript_tag }}
+
 {{ 'chatype.css' | stylesheet_tag }}
 {{ 'ligature-symbols.css' | stylesheet_tag }}
 {{ 'screen.css' | stylesheet_tag }}

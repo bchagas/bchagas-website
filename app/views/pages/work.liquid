@@ -1,10 +1,9 @@
-{% extends parent %}
-
 {% block 'main' %}
   <h1>{{ page.title }}</h1>
 
-  <ul>
-    {% for project in contents.projects %}
+  <section role='contentinfo'>
+    <ul>
+      {% for project in contents.projects %}
       <li>
         <figure>
           {{ project.thumb.url | theme_image_tag }}
@@ -13,4 +12,5 @@
       </li>
     {% endfor %}
   </ul>
+  </section>
 {% endblock %}
